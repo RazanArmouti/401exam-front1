@@ -15,6 +15,7 @@ class Header extends React.Component {
         <Navbar.Brand>My Favorite Fruits</Navbar.Brand>
         <Link to="/">Home </Link>
         <Link to="/favFruit"> Fav-Fruits</Link>
+        <Link to="/profile"> Profile</Link>
         {isAuthenticated ? <LogoutButton /> : <LoginButton />}
       </Navbar>
     );
