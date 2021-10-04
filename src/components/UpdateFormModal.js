@@ -35,7 +35,7 @@ class UpdateFormModal extends Component {
             updatedFavlist: response.data
 
          })   
-            
+         window.location.reload(true);   
         })
 
     }
